@@ -1,0 +1,54 @@
+body{
+  background-color: grey;
+}
+#navbar{
+  border: 2px solid white;
+  display: inline-block;
+  color:white;
+  background-color: #0f1111;
+}
+a{
+  margin-right: 170px;
+  text-decoration: none;
+  color:white;
+}
+#amz{
+  font-size: 25px;
+  font-family: cursive;
+  color: rgba(250, 235, 3, .84);
+}
+button:hover{
+  transform:rotateX(90deg);
+  transform:rotateY(90deg);
+  transform:rotateZ(720000000000000deg);
+  background-color: blue;
+  text-size: 34px;
+  transition-delay: 1ms;
+  transition-duration: 25s;
+  transition-timing-function: steps(22200);
+  font-family: cursive;
+  text-transform: uppercase;
+}
+div:hover{
+  transform:rotateX(90deg);
+  transform:rotateY(90deg);
+  transform:rotateZ(720000000000000000deg);
+  background-color: red;
+  border:2px;
+  border-color: magenta;
+  border-radius: 90%;
+  text-size: 34px;
+  transition-delay: 1ms;
+  transition-duration: 25s;
+  transition-timing-function: steps(22200);
+  font-family: cursive;
+  text-transform: uppercase;
+}
+#space{
+  height: 300px;
+  width: 1vw;
+}
+#navbar:hover{
+  color:red;
+  transition-duration: 15s;
+}
